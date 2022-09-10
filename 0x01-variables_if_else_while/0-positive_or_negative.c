@@ -6,7 +6,7 @@
  *
  *description - postitve negative and zero
  * 
- *return- always return0 (success)
+ *return- always return 0 (success)
  */
 
 int main(void)
