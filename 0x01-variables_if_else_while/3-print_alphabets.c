@@ -10,15 +10,21 @@
 int main(void)
 
 {
-	int i = 65;
+	int i, m;
 
-	while (i < 91)
+	i = 97;
+	m = 65;
 	while (i < 123)
+	
 {
 		putchar(i);
 		i++;
 	}
-		putchar(10);
+	while (m < 91)
+
+{		putchar(m);
+		m++;
+}
 		putchar(10);
 	return (0);
 }
