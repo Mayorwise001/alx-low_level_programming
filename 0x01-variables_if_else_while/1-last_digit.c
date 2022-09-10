@@ -4,11 +4,8 @@
 
 /**
     * main - Prints compared numbers
-    * Return : Returns prints 
- 
- 
- 
- */
+    * Return: Returns prints 
+    */
 
 
 int main(void)
