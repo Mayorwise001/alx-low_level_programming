@@ -27,7 +27,7 @@ int main(void)
 	while (m < 90)
 			putchar(m);
 				m++;
-			putchar(10)
+			putchar(10);
 	}
 					return (0);
 	}
