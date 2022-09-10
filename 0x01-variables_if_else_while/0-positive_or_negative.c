@@ -8,14 +8,14 @@
 
 int main(void)
 {
-	int n;
+	int num;
 
 	srand(time(0));
-	n = rand() - RAND_MAX / 2;
+	num = rand() - RAND_MAX / 2;
 
 
 
-	int num=0;
+	
 	printf("Enter a number:");
 	scanf("%d",&num);
 	if(num>0){
@@ -24,7 +24,7 @@ int main(void)
 	if(num<0){
 		printf("is negative");
 }
-	if(num=0){
+	if((num=0)){
 		printf("is zero");
 }
 
