@@ -21,9 +21,9 @@ int main(void)
 	scanf("%d",&num);
 	if(num>0)
 		printf("%d is positive\n",num);
-	if(num<0)
+	else if(num<0)
 		printf("%d is negative\n",num);
-	if((num=0))
+	else((num=0))
 		printf("%d is zero\n",num);
 	return (0);
 
