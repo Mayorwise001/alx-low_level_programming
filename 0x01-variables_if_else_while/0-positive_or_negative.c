@@ -1,10 +1,12 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include <time.h>
-/*main - this code shows numbers
+/**
+ * main - this code shows numbers
+ *
  * description - postitve negative and zero
  * end
- * return 0
+ * return 0 (success)
  */
 
 int main(void)
@@ -14,11 +16,6 @@ int main(void)
 	srand(time(0));
 	num = rand() - RAND_MAX / 2;
 
-
-
-	
-	printf("Enter a number:");
-	scanf("%d",&num);
 	if(num>0)
 		printf("%d is positive\n",num);
 	else if(num<0)
