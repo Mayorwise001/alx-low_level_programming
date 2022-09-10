@@ -5,8 +5,8 @@
  * main - this code shows numbers
  *
  * description - postitve negative and zero
- * end
- * return- 0 (success)
+ * 
+ * return- always return0 (success)
  */
 
 int main(void)
