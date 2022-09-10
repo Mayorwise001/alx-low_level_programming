@@ -11,17 +11,13 @@ int main(void)
 
 {
 	int i, m;
-
 	i = 97;
 	m = 65;
 	while (i < 123)
-	
-{
-		putchar(i);
+{		putchar(i);
 		i++;
 	}
 	while (m < 91)
-
 {		putchar(m);
 		m++;
 }
