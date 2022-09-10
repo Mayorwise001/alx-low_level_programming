@@ -27,7 +27,8 @@ int main(void)
 }
 	if((num=0)){
 		printf("is zero");
-	return (0);}
+	return (0);
+}
 
 }
 
