@@ -20,11 +20,11 @@ int main(void)
 	printf("Enter a number:");
 	scanf("%d",&num);
 	if(num>0)
-		printf("%d is positive");
+		printf("%d is positive" num);
 	if(num<0)
-		printf("%d is negative");
+		printf("%d is negative" num);
 	if((num=0))
-		printf("%d is zero");
+		printf("%d is zero" num);
 	return (0);
 
 
