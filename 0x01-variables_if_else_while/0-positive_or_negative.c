@@ -2,11 +2,11 @@
 #include<stdlib.h>
 #include <time.h>
 /**
- * main - this code shows numbers
+ *main - this code shows numbers
  *
- * description - postitve negative and zero
+ *description - postitve negative and zero
  * 
- * return- always return0 (success)
+ *return- always return0 (success)
  */
 
 int main(void)
