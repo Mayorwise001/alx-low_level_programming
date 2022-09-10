@@ -4,6 +4,7 @@
 /*main - this code shows numbers
  * description - postitve negative and zero
  * end
+ * return 0
  */
 
 int main(void)
@@ -26,6 +27,7 @@ int main(void)
 }
 	if((num=0)){
 		printf("is zero");
+	return (0);
 }
 
 
