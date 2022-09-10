@@ -8,13 +8,19 @@ int main(void)
 
 {
 
-int i = 97;
+	char a;
 
-do {
-	putchar(10);
-			i++;
-} while (i < 123 && i != 113 && i != 101);
+	for (a = 'a'; a <= 'z' ; a++)
+	{
+		if (a == 'q' || a == 'e')
+		{
+			continue;
+		}
+		putchar(a);
 
-	return (0);
 }
+		putchar('\n');
+		return (0);
+}
+
 
