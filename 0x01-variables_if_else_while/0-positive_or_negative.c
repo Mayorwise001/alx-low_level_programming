@@ -2,13 +2,20 @@
 #include<stdlib.h>
 #include <time.h>
 /**
- *main - this code shows numbers
  *
- *description - postitve negative and zero
- * 
- *return- always return 0 (success)
- */
-
+ *  * main - determine if number is positive or negative
+ *
+ *   *
+ *
+ *    * Description: program will assign a random number to the variable n each time
+ *
+ *     * it is executed.
+ *
+ *      *
+ *
+ *       * Return: Always 0 (Success)
+ *
+ *        */
 int main(void)
 {
 	int n;
