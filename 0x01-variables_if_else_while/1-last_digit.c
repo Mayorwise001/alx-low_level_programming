@@ -1,8 +1,10 @@
 #include <stdlib.h>
-#include<stdio>
+#include<stdio.h>
 #include <time.h>
 
 /**
+    * main - Prints compared numbers
+    * Return : Returns prints 
  
  
  
