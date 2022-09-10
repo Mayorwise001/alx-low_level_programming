@@ -3,7 +3,6 @@
 #include <time.h>
 /**
    * main - determine if number
-   * Description: program will assign a random number to the variable n each time
    * Return: Always 0 (Success)
    */
 int main(void)
