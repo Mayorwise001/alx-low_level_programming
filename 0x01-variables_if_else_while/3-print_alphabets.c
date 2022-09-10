@@ -13,21 +13,17 @@
 int main(void)
 
 {
-	int i = 97;
-	int m=65;
-		while (i < 123)
+	int i;
+
+	for (i =65; i<= 90; i++);
 	{
-			putchar(i);
-				i++;
-																}
-				putchar(10);
-	
-				return (0);
-{				
-	while (m < 90)
-			putchar(m);
-				m++;
-			putchar(10);
+		putchar(i);
 	}
-					return (0);
+	for (i=97; i<= 122; i++)
+	{ 
+		putchar(i);
 	}
+	putchar(10)
+	return (0)
+}
+			
