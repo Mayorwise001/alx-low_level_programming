@@ -11,11 +11,11 @@
 int main(void)
 
 {
-	int i = 97;
+	int i = 123;
 
-		while (i == 123)
+		while (i < 97)
 	{
-			i--;
+			i++;
 			putchar(i);
 	}
 	putchar('\n');
