@@ -12,7 +12,7 @@ int j = 0;
 
 	while (j < 10)
 {
-		printf(j);
+		putchar(j);
 		j++;
 
 }
