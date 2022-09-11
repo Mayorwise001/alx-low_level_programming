@@ -15,7 +15,7 @@ int j = 0;
 		putchar(j);
 		j++;
 }
-	putchar(10);
+	putchar('\n');
 	return (0);
 
 }
