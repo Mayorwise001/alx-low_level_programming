@@ -13,6 +13,8 @@ int main(void)
 			i++;
 		{
 	printf("%d this\n", i);
+	putchar('\n');
 	return (0);
+	
 }
 }
