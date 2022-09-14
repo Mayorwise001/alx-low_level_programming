@@ -2,7 +2,6 @@
 
 /**
 * _putchar -writes the charate
-*main - ok this is cor
 * @c: The charter to print
 * Return: on the success 1.
 */
