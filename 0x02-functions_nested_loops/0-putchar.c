@@ -9,7 +9,7 @@
 */
 
 
-int main(char c)
+int main(void)
 	{
 
 		return (write(1, &c, 1));
