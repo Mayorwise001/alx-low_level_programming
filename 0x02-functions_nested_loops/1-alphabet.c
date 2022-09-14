@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* main -writes the charate
+* print_alphabet -writes the charate
 * Description: The charter to print
-* Return: on the success 1.
+* Return: void
 */
 
 
