@@ -2,7 +2,7 @@
 
 
 /**
-*jack_baurer- main function
+*jack_bauer- main function
 *
 *Description: prints a list of time
 *
@@ -10,7 +10,7 @@
 *
 */
 
-void jack_baurer(void)
+void jack_bauer(void)
 
 {
 	int i, j;
