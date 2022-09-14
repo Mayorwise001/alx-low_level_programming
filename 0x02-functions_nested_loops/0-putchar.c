@@ -3,7 +3,7 @@
 #include <main.h>
 /**
 * _putchar -writes the charate
-*main.h - ok this is cor
+*main - ok this is cor
 * @c: The charter to print
 * Return: on the success 1.
 */
