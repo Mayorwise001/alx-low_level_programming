@@ -1,28 +1,32 @@
 #include "main.h"
 
 /**
-* print_sign - prints 1 or 0 depending on input
-* @n: first parameter
-* Description: The charter to print
-* Return:  1 if +, 0 if 0, and -1 if -
+* print_sign - main function
+*
+*@n: character to compare
+*
+*Return: 1 fi positive, 0 if zero, -1 if negative
+*
 */
-
 
 int print_sign(int n)
 
 {
+
 	if (n > 0)
 	{
+
 		_putchar('+');
 		return (1);
 	}
-
 	if (n == 0)
 	{
+
 		_putchar('0');
 		return (0);
+
 	}
 
-	_putchar('-');
+	-putchar('-');
 	return (-1);
 }
