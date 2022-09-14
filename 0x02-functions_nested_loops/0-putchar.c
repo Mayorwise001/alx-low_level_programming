@@ -1,7 +1,6 @@
 #include <unistd.h>
 
 /**
-* main - print ok
 * _putchar -writes the charate
 *main - ok this is cor
 * @c: The charter to print
@@ -10,7 +9,7 @@
 
 
 int _putchar(char c)
-	{
+{
 
-		return (write(1, &c, 1));
-		}
+	return (write(1, &c, 1));
+}
