@@ -2,13 +2,13 @@
 
 /**
 * print_sign - prints 1 or 0 depending on input
-* @c: first parameter
+* @n: first parameter
 * Description: The charter to print
-* Return: always (0)
+* Return:  1 if +, 0 if 0, and -1 if -
 */
 
 
-int _print_sign(int n)
+int print_sign(int n)
 {
 	if (n > 0)
 	{
