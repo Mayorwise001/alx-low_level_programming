@@ -1,6 +1,4 @@
-#ifndef main.h
-#define main.h
-#include "holberton.h"
+#include "main.h"
 #include <unistd.h>
 #include <main.h>
 /**
