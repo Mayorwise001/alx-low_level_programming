@@ -1,5 +1,5 @@
 #include <unistd.h>
-
+#include <main.h>
 /**
 * _putchar -writes the charater
 * @c: The charter to print
