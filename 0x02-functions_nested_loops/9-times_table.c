@@ -2,7 +2,7 @@
 
 
 /**
-*print_times_table - main function
+*times_table - main function
 *
 *Description: prints a list of time
 *@n: row, cone = column, d = digits of current result
@@ -10,7 +10,7 @@
 *
 */
 
-void print_times_table(int n)
+void times_table(int n)
 {
 	int x = 0, y, z;
 
