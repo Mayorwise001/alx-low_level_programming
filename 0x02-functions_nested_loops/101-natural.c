@@ -10,7 +10,7 @@
 *
 */
 
-int void(void)
+int main(void)
 {
 
 	int a;
