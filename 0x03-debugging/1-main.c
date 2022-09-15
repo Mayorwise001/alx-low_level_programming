@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *main-Debugging
- *Return: 0
+ * main - debugging
+ * Return: 0
  */
 
 int main(void)
@@ -10,6 +10,7 @@ int main(void)
 
 	int i;
 		printf("Infinite loop incoming :(\n");
+
 			i = 0;
 			/**
 			 * while (i < 10)
