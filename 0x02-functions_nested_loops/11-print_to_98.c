@@ -40,5 +40,5 @@ int i;
 
 }
 }
-	printf('\n');
+	printf("\n");
 }
