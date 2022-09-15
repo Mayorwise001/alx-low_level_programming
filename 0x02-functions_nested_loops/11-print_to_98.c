@@ -34,6 +34,6 @@ void print_to_98(int n)
 				continue;
 			printf(", ");
 		}
-		print("\n");
+		printf("\n");
 }
 }
