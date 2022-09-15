@@ -41,7 +41,6 @@ void print_times_table(int n)
 				_putchar(' ');
 				_putchar(z + '0');
 				}
-			}
 			else
 				_putchar (z + '0');
 			if (y != n)
@@ -49,7 +48,8 @@ void print_times_table(int n)
 				_putchar (' ');
 	}
 	}
-	_purchar('\n');
+	_putchar('\n');
 	x++;
 			}
+		}
 		}
