@@ -2,8 +2,8 @@
 
 /**
 *main - Deubugging
-*
-*return: 0
+*@i: another
+*Return: 0
 */
 
 int main(void)
