@@ -2,7 +2,7 @@
 
 
 /**
-*times_table - main function
+*print_times_table - main function
 *
 *Description: prints a list of time
 *@n: row, cone = column, d = digits of current result
