@@ -2,10 +2,11 @@
 
 /**
 *main- Deubugging
+*@i- ok now
 *Return: 0
 */
 
-int main(void)
+int positive_or_negative(int i);
 {
 	int i;
 
