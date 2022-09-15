@@ -10,9 +10,9 @@
 *
 */
 
-void times_table(int n)
+void times_table(void)
 {
-	int x = 0, y, z;
+	int x = 0, y, z, n;
 
 	if (n > 15 || n < 0)
 		return;
