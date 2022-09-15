@@ -18,7 +18,7 @@ void times_table(void)
 	{
 		for (c = 1; c <= 9; c++)
 		{
-			int d = c * i;
+			int d = c * r;
 
 			if (c == 0)
 			{
