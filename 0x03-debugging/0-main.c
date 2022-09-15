@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * main- Deubugging
- * Return: 0
- */
+*main- Deubugging
+*Return: 0
+*/
 
 int main(void)
 {
