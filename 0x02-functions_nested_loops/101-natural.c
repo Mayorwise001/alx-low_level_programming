@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* void - main function
+* main - main function
 *
 *i: prints a list of time
 *@: row, cone = column, d = digits of current result
