@@ -23,7 +23,7 @@ int i;
 
 			if (i != 98)
 			{
-				printf(",");
+				printf(", ");
 
 		}
 	}
