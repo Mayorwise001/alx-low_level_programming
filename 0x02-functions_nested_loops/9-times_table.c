@@ -26,10 +26,9 @@ void times_table(void)
 			}
 			else if	(d <= 9)
 			{
-				_putchar('0');
+				_putchar(d % 10 +'0');
 				_putchar(',');
 				_putchar(' ');
-				_putchar(d % 10 + '0');
 			}
 			else
 			{
