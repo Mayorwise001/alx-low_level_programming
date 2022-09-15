@@ -2,13 +2,13 @@
 
 /**
 *main- Deubugging
-*void: ok
+*
 *Return: 0
 */
 
 int main(void)
 {
-	int = i;
+	inti;
 
 
 	i = 0;
