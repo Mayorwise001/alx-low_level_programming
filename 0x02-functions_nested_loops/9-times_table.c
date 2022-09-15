@@ -5,51 +5,49 @@
 *times_table - main function
 *
 *Description: prints a list of time
-*@n: row, cone = column, d = digits of current result
+* row, cone = column, d = digits of current result
 *Return: times table.
 *
 */
 
 void times_table(void)
 {
-	int x = 0, y, z, n = 0;
+	int a, b, c;
 
-	if (n > 15 || n < 0)
-		return;
-	while (x <= n)
+	for (a = 0; a <= 9; a++)
 	{
-		for (y = 0; y <= n; y++)
+		for (b = 0; b <= 9; b++)
 		{
-			z = x * y;
+			c = a * b;
+			if ((c / 10) == 0)
+			{
+				if (b == 0)
+				{
+					_putchar ('0');
+				}
+				if (b != 0)
+				{
+					_putchar(' ');
+					_putchar ((c % 10) + '0');
+				}
 
-			if (z > 99)
-			{
-				_putchar(z / 100 + '0');
-				_putchar((z / 10 % 10) + '0');
-				_putchar(z % 10 + '0');
+				if (b < 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
-			else if	(z > 9)
-			{
-				_putchar(' ');
-				_putchar(z / 10  + '0');
-				_putchar(z % 10 + '0');
-			}
-			else if (y != 0)
-			{
-				_putchar(' ');
-				_putchar(' ');
-				_putchar(z + '0');
-			}
-
 			else
-			_putchar(z + '0');
-			if (y != n)
 			{
-				_putchar(',');
-				_putchar(' ');
+				_putchar ((c / 10) + '0');
+				_putchar ((c % 10) + '0');
+				if (b < 9)
+			{
+					_putchar(',');
+					_putchar(' ');
 			}
-}
-		_putchar('\n');
-		x++;
+			}
 		}
+		_putchar ('\n');
+	}
 }
