@@ -6,7 +6,7 @@
 *Return: 0
 */
 
-int positive_or_negative(int i);
+int positive_or_negative(int i)
 {
 	i = 0;
 	positive_or_negative(i);
