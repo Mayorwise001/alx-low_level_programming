@@ -2,7 +2,7 @@
 
 /**
 *main - checks if a character is uppercase or n
-*Return: returns result
+*Return: 0
 */
 
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 			{
 				printf("Buzz");
 				printf("\n");
-			}
+		}
 		else
 			printf("Buzz ");
 	}
