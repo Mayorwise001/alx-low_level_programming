@@ -24,7 +24,7 @@ int main(void)
 			printf("Buzz ");
 	}
 	else if (h % 3 == 0)
-		printf('Fizz');
+		printf("Fizz ");
 	else
 		printf("%d ", h);
 		h++;
