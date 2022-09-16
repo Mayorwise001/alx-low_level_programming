@@ -17,7 +17,7 @@ void print_triangle(int size);
 void print_number(int n);
 int _putchar(char);
 int _isupper(int);
-int _isgidit(int);
+int _isgigit(int);
 int mul(int, int);
 
 #endif /* MAIN_H */
