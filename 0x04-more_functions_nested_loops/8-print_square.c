@@ -21,11 +21,11 @@ void print_square(int size)
 				putchar('#');
 			}
 			putchar('#');
-			putchar('\n')
+			putchar('\n');
 		}
 	}
 	else
 	{
-		putchar('\n')
+		putchar('\n');
 	}
 }
