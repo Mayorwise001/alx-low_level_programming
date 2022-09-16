@@ -1,16 +1,13 @@
 #include "main.h"
 
 /**
-*_int mul - checks if a character is uppercase or not
+*_mul - checks if a character is uppercase or not
 *@a: charcter to be tested
 *@b: it is ok
 *Return: 1 whether it is, 0 otherwise
 */
 
 int _mul(int a, int b)
-int c;
-
 {
-	c = a * b;
-	return (1);
+	return (a * b);
 }
