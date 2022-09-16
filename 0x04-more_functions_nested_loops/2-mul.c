@@ -7,7 +7,7 @@
 *Return: 1 whether it is, 0 otherwise
 */
 
-int _mul(int a, int b)
+int mul(int a, int b)
 {
 	return (a * b);
 }
