@@ -22,4 +22,6 @@ void more_numbers(void)
 		putchar((n2 % 10) + '0');
 	}
 	putchar(10);
+
+	}
 }
