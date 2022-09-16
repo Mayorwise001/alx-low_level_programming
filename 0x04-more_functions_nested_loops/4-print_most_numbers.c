@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
-*print_numbers - checks if a character is uppercase or n
+*print_most_numbers - checks if a character is uppercase or n
+*
 *Return: returns result
 */
 
@@ -14,7 +15,6 @@ void print_most_numbers(void)
 	{
 		if ((n == 50) || (n == 52))
 		{
-
 			continue;
 		}
 		putchar(n);
