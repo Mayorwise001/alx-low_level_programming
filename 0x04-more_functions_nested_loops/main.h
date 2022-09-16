@@ -7,7 +7,7 @@
 *int protypes (int)
 */
 
-#include <stdio>
+
 
 
 void print_numbers(void);
