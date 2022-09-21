@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_strincpy - concatenates the string
+*_strncpy - concatenates the string
 *the end of the string
 *@dest: string
 *@src: string
@@ -9,7 +9,7 @@
 *Return: return pointer
 */
 
-char *_strincpy(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 
 	int i;
