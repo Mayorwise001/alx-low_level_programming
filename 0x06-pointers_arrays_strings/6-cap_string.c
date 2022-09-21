@@ -2,11 +2,11 @@
 
 /**
 *_strlen - concatenates the string
-*@str: string
+*@s: string
 *Return:  address to the string
 */
 
-int _strlen(char *str)
+int _strlen(char *s)
 {
 	int len = 0;
 
