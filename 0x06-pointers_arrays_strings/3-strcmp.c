@@ -23,9 +23,9 @@ int _strcmp(char *s1, char *s2)
 			diff = s2[i];
 			break;
 		}
-		else if (s2(i) == '\0')
+		else if (s2[i] == '\0')
 		{
-			diff = s[i];
+			diff = s1[i];
 			break;
 		}
 
