@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+*main- enter the main code
+*Return: ok
+*/
 
 int main(void)
 {
