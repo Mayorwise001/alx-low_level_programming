@@ -1,48 +1,33 @@
 #include "main.h"
 
 /**
-*_strlen - concatenates the string
-*@s: string
-*Return:  address to the string
-*/
-
-int _strlen(char *s)
-{
-	int len = 0;
-
-	while (*(s + len) != '\0')
-		len++;
-	return (len);
-}
-
-/**
 *cap_string - function that capitalize
-*@str: strng to capitalize
+*@s: strng to capitalize
 *Return: returns the capitalized string
 */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
-	int index = 0;
+	int i = 0,  j;
+	char a[] = " \t\n,;.!?\"(){}";
 
-	while (str[++index])
+	while (*(s + i))
 	{
-		while (!(str[index] >= 'a') && (str[index] <= 'z'))
-			index++;
-		if (str[index - 1] == ' ' ||
-					str[index - 1] == '\t' ||
-					str[index - 1] == '\n' ||
-					str[index - 1] == ',' ||
-					str[index - 1] == ';' ||
-					str[index - 1] == '.' ||
-					str[index - 1] == '!' ||
-					str[index - 1] == '?' ||
-					str[index - 1] == '"' ||
-					str[index - 1] == '(' ||
-					str[index - 1] == ')' ||
-					str[index - 1] == '{' ||
-					str[index - 1] == '}')
-			str[index] -= 32;
-		}
-		return (str);
-}
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
+		{
+			if (i == 0)
+				*(s + i) -= 'a' - 'A';
+			else
+			{
+				for (j = 0; j <= 12; j++)
+				{
+					if (a[j] == *(s + i - 1))
+						*(s + i) -= 'a' - 'A';
+						}
+
+					}
+				}
+				i++
+			}
+		return (s);
+	}
