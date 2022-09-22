@@ -8,10 +8,10 @@
 
 char *cap_string(char *s)
 {
-	int a = 0,  i;
-	int len = 13;
-
 	char b[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
+	
+	int len = 13;
+	int a = 0, i;
 
 	while (s[a])
 	{
