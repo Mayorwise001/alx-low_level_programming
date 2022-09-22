@@ -1,7 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include<stdio.h>;
+#include<stdio.h>
+
 int main(void);
 void reverse_array(int *a, int n);
 void print_number(int n);
