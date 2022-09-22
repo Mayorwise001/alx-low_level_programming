@@ -2,27 +2,34 @@
 
 /**
 *cap_string - function that capitalize
-*@s: strng to capitalize
+*@str:trng to capitalize
 *Return: returns the capitalized string
 */
 
-char *cap_string(char *s)
+char *cap_string(char *str)
 {
-	char b[] = {32, 9, '\n', ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'};
-	
-	int len = 13;
-	int a = 0, i;
 
-	while (s[a])
+	int index = 0;
+
+	while (str[++index])
 	{
-		i = 0;
-		while (i < len)
-		{
-			if ((a == 0 || s[a - 1] == b[i]) && (x[a] >= 97 && s[a] <= 122))
-				s[a] = s[a] - 32;
-			i++;
-				}
-				a++
-			}
-			return (s);
-	}
+		while (i(str[index] >= 'a' && str[index] <= 'z'))
+			index++;
+
+		if (str[index - 1] == ' ' ||
+				str[index - 1] == '\t' ||
+				str[index - 1] == '\n' ||
+				str[index - 1] == ',' ||
+				str[index - 1] == ';' ||
+				str[index - 1] == ',' ||
+				str[index - 1] == '!' ||
+				str[index - 1] == '?' ||
+				str[index - 1] == '"' ||
+				str[index - 1] == '(' ||
+				str[index - 1] == ')' ||
+				str[index - 1] == '{' ||
+				str[index - 1] == '}')
+			str[index] -= 32;
+		}
+		return (str);
+}
