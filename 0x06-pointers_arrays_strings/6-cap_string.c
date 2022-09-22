@@ -1,36 +1,35 @@
 #include "main.h"
-#include <stdio>
 
 /**
 *cap_string - function that capitalize
-*@str:trng to capitalize
+*@s: strng to capitalize
 *Return: returns the capitalized string
 */
 
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
+	int i = 0, j;
+	char a[] = "\t\n,;.!?\"(){}";
 
-	int index = 0;
-
-	while (str[++index])
+	while (*(s + i))
 	{
-		while (!(str[index] >= 'a' && str[index] <= 'z'))
-			index++;
+		if (*(s + i) >= 'a' && *(s + i) <= 'z')
 
-		if (str[index - 1] == ' ' ||
-				str[index - 1] == '\t' ||
-				str[index - 1] == '\n' ||
-				str[index - 1] == ',' ||
-				str[index - 1] == ';' ||
-				str[index - 1] == '.' ||
-				str[index - 1] == '!' ||
-				str[index - 1] == '?' ||
-				str[index - 1] == '"' ||
-				str[index - 1] == '(' ||
-				str[index - 1] == ')' ||
-				str[index - 1] == '{' ||
-				str[index - 1] == '}')
-			str[index] -= 32;
+		{
+			if (i == 0)
+				*(s + i) -= 'a' - 'A';
+			else
+			{
+				for (j = 0; j <= 12; j++)
+				{
+					if (a[j] == *(s + i - 1))
+
+						*(s + i) -= 'a' - 'A';
+					}
+				}
+
+			}
+			i++;
 		}
-		return (str);
+		return (s);
 }
