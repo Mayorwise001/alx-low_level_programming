@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(vod)
+(vod)
 {
 	int n;
 	int a[5];
