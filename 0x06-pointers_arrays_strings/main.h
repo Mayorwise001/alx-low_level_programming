@@ -1,6 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-
+#include <stdio.h>
 
 void reverse_array(int *a, int n);
 void print_number(int n);
@@ -15,4 +15,5 @@ char *leet(char *);
 char *rot13(char *s);
 char *infinite_add(char *n1, char *n2, char *r, int size_r);
 char *add_strings(char *n1, char *n2, char *r, int r_index);
+_putchar;
 #endif /*MAIN_H*/
