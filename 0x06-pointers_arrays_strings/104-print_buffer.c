@@ -1,6 +1,6 @@
 #include "main.h"
 #include <stdio.h>
- 
+
 /**
 * print_buffer - prints a buffer
 * @b: buffer to print
@@ -35,7 +35,7 @@ void print_buffer(char *b, int size)
 			else
 				printf(".");
 		}
-		
+
 		if (byte >= size)
 			continue;
 		printf("\n");
