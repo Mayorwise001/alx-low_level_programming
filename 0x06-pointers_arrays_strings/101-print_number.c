@@ -8,7 +8,9 @@
 
 void print_number(int n)
 {
-	_putchar(98);
+	n = 98;
+
+	_putchar(n);
 
 	return (0);
 }
