@@ -9,6 +9,6 @@
 void print_number(int n)
 {
 	n = 98;
-	_putchar(%d, n);
+	_putchar((n % 10) + '0');
 	return (0);
 }
