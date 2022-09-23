@@ -1,14 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
-#include <stdio.h>
-/**
-*reverse- revers ok
-*void prototypes()
-*int prototypes()
-*char prototypes
-*@n: ok now
-*@a: this is oook
-*/
+
+
 void reverse_array(int *a, int n);
 void print_number(int n);
 void print_buffer(char *b, int size);
