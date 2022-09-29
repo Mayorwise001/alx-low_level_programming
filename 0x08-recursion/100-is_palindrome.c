@@ -45,8 +45,8 @@ int check(char *s, char *t, int l, int c)
 
 /**
  * is_palindrome -  Check if is_palindrom
- * @s: pinter to string
- *
+* @ s: pinter to string
+*
  * Return: 1 if no other factors and 0 itherwise
  */
 int is_palindrome(char *s)
