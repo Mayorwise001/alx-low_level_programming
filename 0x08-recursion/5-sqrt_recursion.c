@@ -52,5 +52,3 @@ int _sqrt_recursion(int n)
 	}
 	return (-1);
 }
-Footer
-© 2022 Git
