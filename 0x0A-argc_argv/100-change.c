@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 		{
 		if (value[i] <= ammount)
 			{
-		coins = coins + (ammount / value[i]);
+			coins = coins + (ammount / value[i]);
 			ammount = ammount - (ammount / value[i]) * value[i];
 				if (ammount == 0)
 				{
