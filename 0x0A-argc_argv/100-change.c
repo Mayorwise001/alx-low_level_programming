@@ -4,8 +4,8 @@
  * main - returns the min numbers of coins per given ammount of money.
  * @argc: argument count or size of arguments.
  * @argv: argument vector
- * Return: 0 success 1 failure.
- */
+ * Return: 0 success 1 failure
+*/ 
 int main(int argc, char **argv)
 {
 	int coins, i, ammount;
@@ -29,7 +29,7 @@ int main(int argc, char **argv)
 		{
 		if (value[i] <= ammount)
 			{
-			coins = coins + (ammount / value[i]);
+		coins = coins + (ammount / value[i]);
 			ammount = ammount - (ammount / value[i]) * value[i];
 				if (ammount == 0)
 				{
