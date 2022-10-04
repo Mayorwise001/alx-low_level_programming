@@ -1,5 +1,5 @@
-#ifndef _main_h
-#define _main_h
+#ifndef _MAIN_H_
+#define _MAIN_H_
 
 
 #include <stdlib.h>
@@ -12,3 +12,4 @@ int **alloc_grid(int width, int height);
 void free_grid(int **grid, int height);
 char *argstostr(int ac, char **av);
 char **strtow(char *str);
+#endif
