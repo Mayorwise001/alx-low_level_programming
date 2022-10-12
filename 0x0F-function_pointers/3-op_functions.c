@@ -32,7 +32,6 @@ int op_mul(int a, int b)
 {
 	return (a * b);
 }
-
 /**
  * op_div - division of 2 numbers
  * @a: first int
